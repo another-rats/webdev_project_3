@@ -1,0 +1,299 @@
+nav ul {
+  list-style: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.home nav li {
+  display: block;
+  margin: 0.5em 0;
+}
+
+/* Style 1 */
+.home {
+  background-color: #0a0a12;
+  background-image: linear-gradient(180deg, #0a0a12 0%, #1a0a14 100%);
+  background-attachment: fixed;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style 2 */
+.home h1 {
+  text-align: center;
+  color: #e4002b;
+  font-family: Impact, "Arial Black", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.4em rgba(228, 0, 43, 0.6);
+}
+
+/* Style 3 */
+.home h2 {
+  color: #ff6a2b;
+  font-style: italic;
+  text-transform: uppercase;
+  border-bottom: 0.1em solid #e4002b;
+  padding-bottom: 0.25em;
+}
+
+/* Style 4 */
+.home p {
+  line-height: 1.5;
+  font-size: 1em;
+  color: #e6e6e6;
+}
+
+/* Style 5 */
+.home img {
+  max-width: 100%;
+  height: auto;
+  border: 0.15em solid #e4002b;
+  border-radius: 0.3em;
+  box-shadow: 0 0 1em rgba(255, 106, 43, 0.5);
+}
+
+.home a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+.home header,
+.home main,
+.home footer {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Style 1 */
+.resume {
+  background-color: #1b1b2f;
+  color: #f1f1f1;
+  font-family: Georgia, serif;
+}
+
+/* Style 2 */
+.resume h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 0.1em;
+  color: #ffd166;
+}
+
+/* Style 3 */
+.resume h2 {
+  color: #06d6a0;
+  border-bottom: 0.1em solid #06d6a0;
+  padding-bottom: 0.25em;
+  font-size: 1.4em;
+}
+
+/* Style 4 */
+.resume h3 {
+  color: #ffd166;
+  margin-bottom: 0;
+}
+
+/* Style 5 */
+.resume main li {
+  line-height: 1.5;
+  margin-bottom: 0.4em;
+}
+
+.resume a {
+  color: #06d6a0;
+}
+
+.resume img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+.resume header,
+.resume main,
+.resume footer {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.resume header {
+  text-align: center;
+}
+
+/* Style 1 */
+.personal {
+  background-color: #0b1a3f;
+  background-image: linear-gradient(180deg, #060d24 0%, #14306b 100%);
+  background-attachment: fixed;
+  color: #e6ecf7;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Style 2 */
+.personal h1 {
+  text-align: center;
+  color: #f5c542;
+  font-family: Georgia, serif;
+  font-size: 28px;
+  text-shadow: 0 0 12px rgba(245, 197, 66, 0.6);
+}
+
+/* Style 3 */
+.personal h2 {
+  color: #f5c542;
+  border-left: 8px solid #3fa9f5;
+  padding-left: 12px;
+}
+
+/* Style 4 */
+.personal p {
+  line-height: 1.7;
+  font-size: 16px;
+  color: #d5deef;
+}
+
+/* Style 5 */
+.personal img,
+.personal video {
+  border: 3px solid #f5c542;
+  border-radius: 8px;
+  box-shadow: 0 0 16px rgba(245, 197, 66, 0.5);
+  max-width: 100%;
+  height: auto;
+}
+
+.personal a {
+  color: #8fd0ff;
+}
+
+.personal header,
+.personal main,
+.personal footer {
+  width: 800px;
+  margin: 0 auto;
+}
+/* Map page (Valve colors: black, charcoal, orange, white) */
+.maps {
+  background-color: #111111;
+  background-image: linear-gradient(180deg, #000000 0%, #232323 100%);
+  background-attachment: fixed;
+  color: #f2f2f2;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.maps h1 {
+  text-align: center;
+  color: #f26b21;
+  font-family: Impact, "Arial Black", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.4em rgba(242, 107, 33, 0.5);
+}
+
+.maps h2 {
+  color: #ffffff;
+  border-left: 8px solid #f26b21;
+  padding-left: 12px;
+}
+
+.maps a {
+  color: #f26b21;
+}
+
+.maps header,
+.maps main,
+.maps footer {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+#map {
+  width: 100%;
+  height: 450px;
+  border: 3px solid #f26b21;
+  border-radius: 8px;
+  box-shadow: 0 0 1em rgba(242, 107, 33, 0.45);
+}
+
+#map-status {
+  font-style: italic;
+}
+
+#questions-button {
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.maps #questions-button {
+  background-color: #f26b21;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Home page media queries (min-width) */
+@media (min-width: 600px) {
+  .home nav li {
+    display: inline-block;
+    margin: 0 1em;
+  }
+
+  .home h1 {
+    font-size: 2.2rem;
+  }
+
+  .home p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  .home header,
+  .home main,
+  .home footer {
+    padding: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .home h1 {
+    font-size: 3rem;
+  }
+
+  .home h2 {
+    font-size: 1.8em;
+  }
+
+  .home p {
+    font-size: 1.2em;
+  }
+
+  .home img {
+    border-width: 0.25em;
+  }
+
+  .home header,
+  .home main,
+  .home footer {
+    width: 80%;
+  }
+}
